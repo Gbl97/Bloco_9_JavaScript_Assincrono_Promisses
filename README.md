@@ -1,1 +1,1 @@
-# Bloco_9_JavaScript_Assincrono_Promisses
+Essa pasta Bloco_9 contém todos os exercícios propostos no curso da Trybe, Bloco 0 - Java Script (Assíncronos e Promisses), do Fundamentos do Desenvolvimento WeB.
