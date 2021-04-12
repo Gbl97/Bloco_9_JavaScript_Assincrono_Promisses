@@ -46,7 +46,31 @@ const getPlanet = () => {
   };
   console.log("Returned planet: ", mars);
 };
-setTimeout(() => {
-  getPlanet(); // imprime Marte depois de 4 segundos
-}, 4000);
+
+// setTimeout(() => {
+//   getPlanet(); // imprime Marte depois de 4 segundos
+// }, 4000);
+
+// Exercicio 4
+const messageDelay = () => Math.floor(Math.random() * 5000);
+
+const getMarsTemperature = () => {
+  const maxTemperature = 58;
+  return Math.floor(Math.random() * maxTemperature);
+};
+
+// crie a função sendMarsTemperature abaixo
+
+const sendMarsTemperature = ((callback) => {
+  const temperatura = callback();
+
+  setTimeout(() => {
+    console.log(`Mars temperature is: ${temperatura} degree Celsius`);
+  }, messageDelay());
+
+  messageDelay();
+}); 
+
+// imprime "Mars temperature is: 20 degree Celsius", por exemplo
+sendMarsTemperature(getMarsTemperature);
 
