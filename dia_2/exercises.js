@@ -9,11 +9,13 @@
 })
 // Exercicio 3
  .then((sumArrays) => [2, 3, 5, 10].map((number) => sumArrays / number))
+ // Exercicio 5
+ .then((sumArrays) => console.log(sumArrays))
  // Exercicio 4
- .catch(() => console.log('É mais de oito mil!! Essa promise deve estar quebrada!'))
+ .catch(() => console.log('É mais de oito mil!! Essa promise deve estar quebrada!'));
 
 
-//  console.log(verifiedRandomNumbersPromises);
+ console.log(verifiedRandomNumbersPromises);
 
 
 
