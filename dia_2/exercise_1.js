@@ -1,4 +1,4 @@
-// Exercicio 1
+ // Exercicio 1
 const showJoke = ({ joke }) => {
     const getID = document.getElementById("jokeContainer");
     getID.innerHTML = joke;
@@ -19,3 +19,6 @@ const fetchJoke = () => {
 };
 
 window.onload = () => fetchJoke();
+
+
+
